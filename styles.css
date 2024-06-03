@@ -1,0 +1,122 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-image: url('childrens-background-a-girl-DMDREM.jpg');
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+header {
+    background-color: #adadad;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    position: relative;
+}
+
+nav {
+    background-color: #555;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 100px); /* Adjust height according to the header and navbar */
+}
+
+.form-container {
+    margin-top: 20px;
+}
+
+.cloth-input{
+    width:80%;
+}
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #333;
+    max-width: 400px;
+    width: 100%;
+}
+
+input[type="number"], input[type="text"], input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+input[type="number"]:focus, input[type="text"]:focus, input[type="file"]:focus {
+    border-color: #7A288A;
+    outline: none;
+}
+
+button[type="submit"] {
+    background-color: #7A288A;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #6c2073;
+}
+
+#clothing-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+#clothing-list > div {
+    background-color: #fff;
+    color: #333;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#clothing-list > div > img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
